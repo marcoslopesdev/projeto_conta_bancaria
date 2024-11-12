@@ -21,7 +21,7 @@ public class Menu {
 		String titular;
 		float saldo, limite, valor;
 
-		System.out.println("\nCriar Contas\n");
+		System.out.println("\nCriar Contas\n"); //Informações para testar a aplicação
 		
 		ContaCorrente cc1 = new ContaCorrente(contas.gerarNumero(), 123, 1, "João da Silva", 1000f, 100.0f);
 		contas.cadastrar(cc1);
